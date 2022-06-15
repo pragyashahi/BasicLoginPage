@@ -1,0 +1,46 @@
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1976d2;
+  padding: 3rem;
+  border-radius: 8px;
+  gap: 0.5;
+}
+
+.submitClass {
+  display: grid;
+  gap: 1rem;
+}
+
+.formElement {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.loginButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginButton button {
+  background-color: hsl(207, 90%, 97%);
+  border: none;
+  border-radius: 4px;
+  color: hsl(207, 90%, 17%);
+  font-weight: bold;
+  padding: 4px 8px;
+  width: 80px;
+  height: 30px;
+}
+
+.showDataStyles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showDataStyles p {
+  color: bisque;
+}
